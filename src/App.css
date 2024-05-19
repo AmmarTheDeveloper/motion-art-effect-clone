@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Sora:wght@100..800&display=swap');
+
+* {
+  font-family: 'Sora', sans-serif;
+  /* pointer-events: none; */
+}
+
+canvas {
+  pointer-events: auto !important;
+}
+
+::selection {
+  background: #9b51e0;
+  color: white;
+
+}
+
+.outfit {
+  font-family: "Outfit", sans-serif;
+}
+
+.gradient-text {
+  background-image: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+  color: transparent;
+  background-clip: text;
+}
